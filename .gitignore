@@ -1,5 +1,4 @@
 node_modules
 package-loke.json
 .DS_Store
-build
-.gitignore
+buildPackage
