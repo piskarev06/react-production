@@ -15,4 +15,6 @@ declare module "*.svg" {
   export default content;
 }
 
+declare const __IS__DEV__: boolean
+
 
