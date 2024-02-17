@@ -3,12 +3,16 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["standard-with-typescript", "plugin:react/recommended"],
+  "extends": [
+    "standard-with-typescript",
+    "plugin:react/recommended",
+    "plugin:i18next/recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "i18next"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "off",
@@ -16,7 +20,9 @@
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/semi": [2, "always"]
+    "@typescript-eslint/semi": [2, "always"],
+    "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/no-misused-promises": "off"
   },
   "globals": {
     "__IS__DEV": true
