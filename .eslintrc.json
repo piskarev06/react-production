@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": [
     "standard-with-typescript",
@@ -22,7 +23,9 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/semi": [2, "always"],
     "@typescript-eslint/member-delimiter-style": "off",
-    "@typescript-eslint/no-misused-promises": "off"
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/space-before-function-paren": "off"
   },
   "globals": {
     "__IS__DEV": true
