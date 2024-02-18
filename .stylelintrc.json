@@ -2,6 +2,9 @@
   "extends": "stylelint-config-standard-scss",
   "rules": {
     "selector-class-pattern": null,
-    "declaration-empty-line-before": null
+    "declaration-empty-line-before": null,
+    "value-list-comma-newline-after": null,
+    "declaration-colon-newline-after": null,
+    "keyframes-name-pattern": null
   }
 }
