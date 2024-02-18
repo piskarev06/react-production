@@ -3,5 +3,7 @@
   "Язык": "Language",
   "Главная": "Home",
   "О сайте": "About site",
-  "Переключить": "Toggle"
+  "Переключить": "Toggle",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Обновить страницу": "Reload page"
 }
