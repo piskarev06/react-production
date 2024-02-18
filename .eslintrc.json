@@ -32,5 +32,13 @@
   },
   "globals": {
     "__IS__DEV": true
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/src/**/*.test.{ts,tsx}"],
+      "rules": {
+        "i18next/no-literal-string": "off"
+      }
+    }
+  ]
 }
