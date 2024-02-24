@@ -29,7 +29,10 @@
     "@typescript-eslint/space-before-function-paren": "off",
     "@typescript-eslint/consistent-type-imports": "off",
     "@typescript-eslint/indent": "off",
-    "react/no-deprecated": "off"
+    "react/no-deprecated": "off",
+    "i18next/no-literal-string": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/consistent-type-assertions": "off"
   },
   "globals": {
     "__IS__DEV": true
