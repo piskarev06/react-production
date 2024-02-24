@@ -13,8 +13,7 @@ export default {
 } as ComponentMeta<typeof AboutPage>;
 
 const Template: ComponentStory<typeof AboutPage> = (args) => (
-  //@ts-expect-error
-  <AboutPage {...args} />
+  <AboutPage {...(args as object)} />
 );
 
 export const Normal = Template.bind({});
